@@ -23,12 +23,14 @@ describe("Books names test suit", () => {
 
     const input = [
       "Властелин Колец",
-			"Властелин Колец", 
+      "Властелин Колец",
+			
     ];
 
     const expected = [
       "Властелин Колец",
-			"Властелин Колец",
+      "Властелин Колец",
+			
     ];
 
     const output = sorting.sortByName(input);
