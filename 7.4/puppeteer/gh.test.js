@@ -32,7 +32,7 @@ describe("Github page tests", () => {
       visible: true,
     });
     const actual = await page.$eval(btnSelector, (link) => link.textContent);
-    expect(actual).toContain("Get started with Team")
+    expect(actual).toContain("Get started with Team");
   }, 60000);
   
 });
