@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --runINBand",
+    "test1": "jest"
+    
   },
   "author": "",
   "license": "ISC",
@@ -13,4 +15,8 @@
     "jest-puppeteer": "^6.0.0",
     "puppeteer": "^13.3.2"
   }
+  
 }
+  
+
+  
